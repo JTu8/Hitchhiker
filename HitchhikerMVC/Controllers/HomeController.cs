@@ -15,7 +15,10 @@ namespace HitchhikerMVC.Controllers
             return View();
         }
 
-        
+        public IActionResult Valinta()
+        {
+            return View();
+        }
 
         public IActionResult Error()
         {
